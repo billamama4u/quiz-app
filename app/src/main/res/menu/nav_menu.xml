@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:toole="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homeicon"
+            android:title="Home"
+            toole:showAsAction="always|withText" />
+
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/aboutus"
+            android:title="About Us"
+            toole:showAsAction="always|withText" />
+
+
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/setting"
+            android:title="Log Out"
+            toole:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/nav_log_out"
+        android:icon="@drawable/logoutt"
+        android:title="Log Out"
+        toole:showAsAction="always|withText" />
+
+    </group>
+
+
+</menu>

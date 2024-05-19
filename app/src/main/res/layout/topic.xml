@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/option"
+    android:id="@+id/linearlayout">
+
+    <TextView
+        android:id="@+id/sno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:layout_marginRight="8dp"
+        android:fontFamily="@font/coffee_normal"
+        android:text="  1."
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cute_dino"
+        android:textColor="#FF0000"
+        android:text="History"
+        android:textSize="30dp" />
+
+</LinearLayout>
